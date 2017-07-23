@@ -1,0 +1,370 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malmö TMAa",
+        "verticalLimits": "1500 ft AMSL - FL 065",
+		"featureType":"TMA",
+        "stroke": "#0000cc",
+        "stroke-width": 2,
+        "stroke-dashoffset": 500,
+        "stroke-dasharray": [
+          100,
+          5000
+        ],
+        "stroke-opacity": 1,
+        "fill": "#282828",
+        "fill-opacity": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.61,
+              55.82694444444444
+            ],
+            [
+              13.11,
+              55.81583333333333
+            ],
+            [
+              13.115555555555556,
+              55.73277777777778
+            ],
+            [
+              12.998888888888889,
+              55.24944444444444
+            ],
+            [
+              12.999444444444444,
+              55.09444444444444
+            ],
+            [
+              13.78888888888889,
+              55.12083333333333
+            ],
+            [
+              13.78888888888889,
+              55.43888888888889
+            ],
+            [
+              13.647222222222222,
+              55.583333333333336
+            ],
+            [
+              13.61,
+              55.82694444444444
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sturup CTR",
+		"featureType": "CTR",
+        "verticalLimits": "GND - 1500ft AMSL",
+        "stroke": "#282828",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#ff99ff",
+        "fill-opacity": 0.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.453055555555556,
+              55.67333333333333
+            ],
+            [
+              13.229722222222222,
+              55.658611111111114
+            ],
+            [
+              13.215277777777779,
+              55.51694444444445
+            ],
+            [
+              13.305555555555555,
+              55.39555555555555
+            ],
+            [
+              13.521944444444445,
+              55.41
+            ],
+            [
+              13.5375,
+              55.55277777777778
+            ],
+            [
+              13.453055555555556,
+              55.67333333333333
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ljungbyed CTR",
+        "verticalLimits": "GND - 1500ft AMSL",
+        "stroke": "#282828",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#ff99ff",
+        "fill-opacity": 0.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.025555555555556,
+              56.155
+            ],
+            [
+              12.9825,
+              56.08722222222222
+            ],
+            [
+              13.130555555555556,
+              56.025
+            ],
+            [
+              13.358333333333333,
+              55.98416666666667
+            ],
+            [
+              13.4525,
+              56.08416666666667
+            ],
+            [
+              13.313888888888888,
+              56.125
+            ],
+            [
+              13.025555555555556,
+              56.155
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ronneby CTR",
+        "verticalLimits": "GND - 1500ft AMSL",
+        "stroke": "#282828",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#ff99ff",
+        "fill-opacity": 0.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.154166666666667,
+              56.47416666666667
+            ],
+            [
+              15.097777777777777,
+              56.22555555555556
+            ],
+            [
+              15.115,
+              56.12111111111111
+            ],
+            [
+              15.331944444444444,
+              56.10472222222222
+            ],
+            [
+              15.414722222222222,
+              56.202222222222225
+            ],
+            [
+              15.475,
+              56.45027777777778
+            ],
+            [
+              15.154166666666667,
+              56.47416666666667
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kristianstad CTR",
+        "verticalLimits": "GND - 1700ft AMSL",
+        "stroke": "#282828",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#ff99ff",
+        "fill-opacity": 0.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.030555555555555,
+              56.13333333333333
+            ],
+            [
+              13.926666666666666,
+              55.937777777777775
+            ],
+            [
+              13.955555555555556,
+              55.73833333333333
+            ],
+            [
+              14.141666666666667,
+              55.730555555555554
+            ],
+            [
+              14.266666666666667,
+              55.910555555555554
+            ],
+            [
+              14.243055555555555,
+              56.125
+            ],
+            [
+              14.030555555555555,
+              56.13333333333333
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ängelholm CTR",
+        "verticalLimits": "GND - 1500ft AMSL",
+        "stroke": "#282828",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#ff99ff",
+        "fill-opacity": 0.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.6725,
+              56.45583333333333
+            ],
+            [
+              12.54861111111111,
+              56.382777777777775
+            ],
+            [
+              12.714166666666667,
+              56.249722222222225
+            ],
+            [
+              12.780833333333334,
+              56.21222222222222
+            ],
+            [
+              13.001111111111111,
+              56.15833333333333
+            ],
+            [
+              13.100555555555555,
+              56.21666666666667
+            ],
+            [
+              13.055555555555555,
+              56.38305555555556
+            ],
+            [
+              12.6725,
+              56.45583333333333
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "small",
+        "marker-symbol": "triangle",
+        "name": "Röstånga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.284166666666668,
+          55.99722222222222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "small",
+        "marker-symbol": "triangle",
+        "name": "Stenestad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.084722222222222,
+          56.04333333333334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "small",
+        "marker-symbol": "triangle",
+        "name": "Hyllstofta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.306666666666667,
+          56.12583333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+       "marker-color": "#000000",
+        "marker-size": "small",
+        "marker-symbol": "triangle",
+        "name": "Vedby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+		13.189722222222223,
+		56.13777777777778
+		]
+      }
+    }
+  ]
+}

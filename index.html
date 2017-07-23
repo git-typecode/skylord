@@ -1,0 +1,74 @@
+<html>
+<body>
+  <head lang="SE">
+		<title>SKYLORD</title>
+		
+		<!-- Sidan använer sig av UTF-8 teckenuppsättning. -->
+<link rel = "stylesheet" type = "text/css" media = "screen" href = "css/style.css">
+
+<script type="text/javascript" src="JScript/javaScript.js"></script>
+<script type="text/javascript" src="JScript/jquery-3.1.1.min.js"></script>
+<!--Load the AJAX API-->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/firebasejs/3.9.0/firebase-app.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/firebasejs/3.9.0/firebase-database.js"></script>
+
+
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKqKwce6SalouBbpT1OIPeVWNqFUx4xd0&libraries=geometry&callback=initMap" async defer></script> -->
+
+</head>
+
+
+<div id="map">
+</div>
+
+<div id="floating-panel">
+  Origin:
+  <input type="text" readonly id="origin"> Destination:
+  <input type="text" readonly id="destination">
+  True Track:
+  <input type="text" readonly id="heading">Grader
+  <br> LatLong:
+  <input type="text" readonly id="latlong">
+  <br>
+  <input type="text" readonly id="nm">NM
+</div>
+<div id="linechart_material">
+
+</div>
+<div id="flight-table">
+<table>
+<thead>
+<tr id = "table-head">
+	<th style = "background-color: #D4E7F7">Time stamp</th>
+	<th style = "background-color: #D4E7F7">Airplane</th>
+	<th style = "background-color: #D4E7F7">Pilot</th>
+	<th style = "background-color: #D4E7F7">Takeoff</th>
+	<th style = "background-color: #D4E7F7">Landed</th>
+	<!-- <th>Comment</th> -->
+</tr>
+</thead>
+<tbody id = "table-rows">
+<tr>
+<td style = "background-color: #00FF00">2017-05-15 15:23:56</td>
+<td style = "background-color: #00FF00">se-mfi</td>
+<td style = "background-color: #00FF00">Daniel J</td>
+<td style = "background-color: #00FF00">2017-05-15 15:43:15</td>
+<td style = "background-color: #00FF00">2017-05-15 17:01:10</td>
+<!-- <td>This certificate will start working on Sunday 1st of November</td> -->
+</tr>
+</tbody>
+</table>
+</div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKqKwce6SalouBbpT1OIPeVWNqFUx4xd0&libraries=geometry&callback=initMap" async defer></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKqKwce6SalouBbpT1OIPeVWNqFUx4xd0&libraries=geometry" async defer></script> -->
+
+<!-- Replace the value of the key parameter with your own API key. -->
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&libraries=geometry&callback=initMap" async defer></script> -->
+
+    <!--Div that will hold the pie chart-->
+    
+
+</body>
+</html>
